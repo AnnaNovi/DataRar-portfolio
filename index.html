@@ -1,0 +1,1571 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>data.ru</title><style> @font-face {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  src: url("../src/fonts/Montserrat-Black/Montserrat-Black.eot");
+  src: url("../src/fonts/Montserrat-Black/Montserrat-Black.woff") format("woff"), url("../src/fonts/Montserrat-Black/Montserrat-Black.ttf") format("truetype"), url("../src/fonts/Montserrat-Black/Montserrat-Black.svg") format("svg"), url("../src/fonts/Montserrat-Black/Montserrat-Black.otf") format("otf"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  src: url("../src/fonts/Montserrat-Bold/Montserrat-Bold.eot");
+  src: url("../src/fonts/Montserrat-Bold/Montserrat-Bold.woff") format("woff"), url("../src/fonts/Montserrat-Bold/Montserrat-Bold.ttf") format("truetype"), url("../src/fonts/Montserrat-Bold/Montserrat-Bold.svg") format("svg"), url("../src/fonts/Montserrat-Bold/Montserrat-Bold.otf") format("otf"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  src: url("../src/fonts/Montserrat-ExtraBold/Montserrat-ExtraBold.eot");
+  src: url("../src/fonts/Montserrat-ExtraBold/Montserrat-ExtraBold.woff") format("woff"), url("../src/fonts/Montserrat-ExtraBold/Montserrat-ExtraBold.ttf") format("truetype"), url("../src/fonts/Montserrat-ExtraBold/Montserrat-ExtraBold.svg") format("svg"), url("../src/fonts/Montserrat-ExtraBold/Montserrat-ExtraBold.otf") format("otf"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  src: url("../src/fonts/Montserrat-Medium/Montserrat-Medium.eot");
+  src: url("../src/fonts/Montserrat-Medium/Montserrat-Medium.woff") format("woff"), url("../src/fonts/Montserrat-Medium/Montserrat-Medium.ttf") format("truetype"), url("../src/fonts/Montserrat-Medium/Montserrat-Medium.svg") format("svg"), url("../src/fonts/Montserrat-Medium/Montserrat-Medium.otf") format("otf"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  src: url("../src/fonts/Montserrat-Regular/Montserrat-Regular.eot");
+  src: url("../src/fonts/Montserrat-Regular/Montserrat-Regular.woff") format("woff"), url("../src/fonts/Montserrat-Regular/Montserrat-Regular.ttf") format("truetype"), url("../src/fonts/Montserrat-Regular/Montserrat-Regular.svg") format("svg"), url("../src/fonts/Montserrat-Regular/Montserrat-Regular.otf") format("otf"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  src: url("../src/fonts/Montserrat-SemiBold/Montserrat-SemiBold.eot");
+  src: url("../src/fonts/Montserrat-SemiBold/Montserrat-SemiBold.woff") format("woff"), url("../src/fonts/Montserrat-SemiBold/Montserrat-SemiBold.ttf") format("truetype"), url("../src/fonts/Montserrat-SemiBold/Montserrat-SemiBold.svg") format("svg"), url("../src/fonts/Montserrat-SemiBold/Montserrat-SemiBold.otf") format("otf"); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 1400px;
+  max-width: 1440px; }
+
+.block#header .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 117px;
+  padding-left: 138px;
+  height: 80px; }
+  .block#header .nav .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .block#header .nav .logo p {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 30px;
+      letter-spacing: 0.15px;
+      color: #C81F56; }
+  .block#header .nav .menu {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em; }
+    .block#header .nav .menu div {
+      padding-left: 33px; }
+      .block#header .nav .menu div a {
+        border-bottom: 1px solid #F0F0F0;
+        color: #020202;
+        text-decoration: none; }
+      .block#header .nav .menu div a:hover, .block#header .nav .menu div a:active {
+        color: #C81F56; }
+
+.block#header .content {
+  background: #F06C46;
+  padding-left: 138px;
+  padding-right: 138px;
+  position: relative; }
+  .block#header .content h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    max-width: 925px;
+    padding-top: 73px;
+    padding-bottom: 12px;
+    position: relative;
+    z-index: 10000; }
+  .block#header .content h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    max-width: 676px;
+    position: relative;
+    z-index: 10000; }
+  .block#header .content .advantages {
+    max-width: 1164px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10000; }
+    .block#header .content .advantages .search {
+      margin-left: 100px;
+      margin-right: 100px; }
+    .block#header .content .advantages .phone, .block#header .content .advantages .search, .block#header .content .advantages .clock {
+      display: inline-flex; }
+    .block#header .content .advantages img {
+      margin-right: 10px; }
+    .block#header .content .advantages span {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: -0.01em;
+      color: #FFFFFF;
+      padding-top: 50px;
+      padding-bottom: 35px; }
+  .block#header .content h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 20px rgba(200, 31, 86, 0.5);
+    position: relative;
+    z-index: 10000; }
+  .block#header .content button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #feb447;
+    height: 43px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    z-index: 10000;
+    margin-bottom: 85px;
+    margin-top: 65px;
+    position: relative;
+    z-index: 10000; }
+    .block#header .content button:hover, .block#header .content button:active {
+      background: #C81F56; }
+  .block#header .content .circle_bot {
+    position: absolute;
+    bottom: -0.6%;
+    left: 0%;
+    z-index: 9200; }
+    .block#header .content .circle_bot img {
+      height: 321px;
+      width: auto; }
+  .block#header .content .circle_top {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 9100; }
+  .block#header .content .circle_yel {
+    position: absolute;
+    bottom: -0.6%;
+    right: 0%;
+    z-index: 9050; }
+  .block#header .content .circle_ora {
+    position: absolute;
+    top: 0%;
+    right: 16%;
+    z-index: 9150; }
+    .block#header .content .circle_ora img {
+      height: auto;
+      width: 686px; }
+
+.block#skills {
+  position: relative;
+  z-index: 10000; }
+  .block#skills h1.top {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    padding: 73px 230px 60px 257px; }
+  .block#skills .six-skills .unite {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 257px;
+    margin-right: 262px;
+    margin-bottom: 39px;
+    min-width: 700px; }
+    .block#skills .six-skills .unite span.clear {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 96px;
+      line-height: 140px;
+      letter-spacing: -0.02em;
+      color: rgba(254, 180, 71, 0.1);
+      position: absolute;
+      top: -15%; }
+    .block#skills .six-skills .unite span.description {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.15px;
+      color: #000000; }
+    .block#skills .six-skills .unite .one, .block#skills .six-skills .unite .two, .block#skills .six-skills .unite .three, .block#skills .six-skills .unite .four, .block#skills .six-skills .unite .five, .block#skills .six-skills .unite .six {
+      width: 210px; }
+    .block#skills .six-skills .unite img {
+      width: 40px;
+      height: auto;
+      margin-bottom: 23px; }
+  .block#skills h2.clear {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 140px;
+    letter-spacing: -0.02em;
+    position: relative;
+    z-index: 10000;
+    color: #C81F56;
+    mix-blend-mode: darken;
+    opacity: 0.1;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: -33px; }
+  .block#skills button.skills {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #feb447;
+    height: 43px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    z-index: 10000;
+    position: relative;
+    z-index: 10000;
+    margin-bottom: 94px;
+    margin-top: 60px;
+    margin-left: 257px; }
+    .block#skills button.skills:hover, .block#skills button.skills:active {
+      background: #C81F56; }
+  .block#skills h1.bot {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    position: relative;
+    z-index: 10000;
+    padding-left: 257px;
+    padding-right: 257px;
+    padding-bottom: 20px;
+    max-width: 806px; }
+  .block#skills p.descript {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #000000;
+    padding-bottom: 29px;
+    padding-left: 257px;
+    padding-right: 257px;
+    max-width: 554px; }
+  .block#skills .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: relative; }
+    .block#skills .images figcaption {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.15px;
+      color: #000000;
+      margin-bottom: 67px;
+      z-index: 10000;
+      position: relative; }
+    .block#skills .images .textbook img {
+      height: 265px;
+      width: auto;
+      z-index: 10000;
+      position: relative; }
+    .block#skills .images .textbook .gray {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      z-index: 9000; }
+      .block#skills .images .textbook .gray img {
+        height: 297px;
+        width: auto; }
+    .block#skills .images .computer img {
+      height: 332px;
+      width: auto;
+      z-index: 10000;
+      position: relative; }
+    .block#skills .images .computer .gray {
+      position: absolute;
+      top: 2%;
+      right: 15%;
+      z-index: 9000; }
+      .block#skills .images .computer .gray img {
+        height: 317px;
+        width: auto; }
+    .block#skills .images .computer .dragon {
+      position: absolute;
+      bottom: 35%;
+      right: 15%;
+      z-index: 9000; }
+      .block#skills .images .computer .dragon img {
+        width: auto;
+        height: 119px; }
+  .block#skills .circle_vacancy_yel {
+    position: absolute;
+    top: 35%;
+    right: 13%;
+    z-index: 9050; }
+  .block#skills .circle_vacancy_ora {
+    position: absolute;
+    top: 30.5%;
+    right: 0%;
+    z-index: 9000; }
+  .block#skills .vacancy-slider {
+    position: relative;
+    z-index: 10000; }
+    .block#skills .vacancy-slider .slick-track {
+      display: flex;
+      justify-content: center; }
+    .block#skills .vacancy-slider .slick-list {
+      overflow: hidden; }
+    .block#skills .vacancy-slider .vacancy-cart {
+      max-width: 192px;
+      min-width: 192px;
+      height: 287px;
+      background: #FFFFFF;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      padding: 17px 12px 23px 20px;
+      position: relative;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 34px;
+      position: relative;
+      z-index: 10000; }
+      .block#skills .vacancy-slider .vacancy-cart .hh {
+        width: 43.38px;
+        height: 43.38px; }
+      .block#skills .vacancy-slider .vacancy-cart p.name {
+        padding-top: 32px;
+        padding-bottom: 23px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.15px;
+        color: #000000; }
+      .block#skills .vacancy-slider .vacancy-cart p.price {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.75px;
+        text-transform: uppercase;
+        color: #C81F56; }
+      .block#skills .vacancy-slider .vacancy-cart img.head {
+        position: absolute;
+        left: 20px;
+        bottom: 23px; }
+    .block#skills .vacancy-slider .slick-dots {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .block#skills .vacancy-slider .slick-dots li {
+        list-style: none; }
+        .block#skills .vacancy-slider .slick-dots li.slick-active button {
+          font-size: 0;
+          background: #FE840E;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          border: none;
+          outline: none;
+          margin: 0px 12px; }
+      .block#skills .vacancy-slider .slick-dots button {
+        font-size: 0;
+        width: 8px;
+        height: 8px;
+        background-color: #D1D6E3;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        margin: 0px 12px; }
+    .block#skills .vacancy-slider .slick-arrow {
+      position: absolute;
+      top: 116px;
+      z-index: 9300;
+      font-size: 0; }
+      .block#skills .vacancy-slider .slick-arrow.slick-prev {
+        left: 80px;
+        background: url("./resrc/arrow-prev.png") 100% 100% no-repeat;
+        background-size: contain;
+        width: 28px;
+        height: 55px;
+        border: none; }
+      .block#skills .vacancy-slider .slick-arrow.slick-next {
+        right: 80px;
+        background: url("./resrc/arrow-next.png") 0 0 no-repeat;
+        background-size: contain;
+        width: 28px;
+        height: 55px;
+        border: none; }
+    .block#skills .vacancy-slider .slick-slide {
+      opacity: 0.5; }
+      .block#skills .vacancy-slider .slick-slide.slick-active {
+        opacity: 1; }
+
+.block#about {
+  background: linear-gradient(350.29deg, #C81F56 -17.44%, rgba(200, 31, 86, 0) 63.54%), #FE840E;
+  border-top-left-radius: 600px 50px;
+  border-top-right-radius: 1200px 300px;
+  border-bottom-right-radius: 300px 50px;
+  border-bottom-left-radius: 1200px 500px;
+  padding-left: 257px;
+  padding-right: 257px;
+  position: relative; }
+  .block#about h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    position: relative;
+    z-index: 10000;
+    color: white; }
+    .block#about h1.top {
+      padding-top: 106px;
+      max-width: 850px; }
+    .block#about h1.medium {
+      padding-top: 115px;
+      max-width: 610px; }
+    .block#about h1.bottom {
+      padding-top: 15px; }
+  .block#about img.data {
+    height: 729px;
+    width: auto;
+    position: absolute;
+    z-index: 9100;
+    left: 0%;
+    top: 10%; }
+  .block#about p.back.top {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 140px;
+    letter-spacing: -0.02em;
+    font-size: 200px;
+    line-height: 293px;
+    color: #FEB447;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 9050;
+    left: 0%;
+    top: 38%;
+    text-transform: uppercase; }
+  .block#about p.back.bot {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 140px;
+    letter-spacing: -0.02em;
+    font-size: 200px;
+    line-height: 293px;
+    text-transform: uppercase;
+    color: #F06C46;
+    position: absolute;
+    z-index: 9050;
+    right: 0%;
+    bottom: 12%; }
+  .block#about .advantages {
+    padding-bottom: 153px;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    z-index: 10000; }
+    .block#about .advantages img {
+      width: 40px;
+      height: auto;
+      margin-right: 20px; }
+    .block#about .advantages span {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.15px;
+      color: #FFFFFF;
+      max-width: 250px;
+      margin-right: 50px; }
+    .block#about .advantages .case {
+      margin-top: 52px;
+      margin-bottom: 52px; }
+    .block#about .advantages .phone, .block#about .advantages .case, .block#about .advantages .calendar {
+      display: inline-flex; }
+  .block#about img.screens {
+    height: 425px;
+    width: auto;
+    margin-left: -257px;
+    position: relative;
+    z-index: 10000; }
+  .block#about .description {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10000; }
+    .block#about .description p.br {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 35px;
+      letter-spacing: -0.01em;
+      color: #FFFFFF; }
+    .block#about .description p {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.15px;
+      color: #000000;
+      color: #FFFFFF; }
+    .block#about .description .adaptation, .block#about .description .practice, .block#about .description .intensive {
+      max-width: 285px; }
+    .block#about .description .practice {
+      margin-left: 66px;
+      margin-right: 66px; }
+  .block#about .sertification {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 150px;
+    position: relative;
+    z-index: 10000; }
+    .block#about .sertification img {
+      height: 308px;
+      width: auto;
+      margin-right: 53px; }
+    .block#about .sertification p.bottom {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.15px;
+      color: #000000;
+      color: #FFFFFF; }
+    .block#about .sertification button {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.75px;
+      text-transform: uppercase;
+      color: #000000;
+      background-color: #feb447;
+      height: 43px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 20px;
+      border: none;
+      position: relative;
+      z-index: 10000;
+      margin-bottom: 162px;
+      margin-top: 44px;
+      position: relative;
+      z-index: 10000; }
+      .block#about .sertification button:hover, .block#about .sertification button:active {
+        background: #C81F56; }
+  .block#about .circle_sk_top {
+    position: absolute;
+    z-index: 9000;
+    left: 0%;
+    top: 10%; }
+  .block#about .circle_sk_med {
+    position: absolute;
+    z-index: 9000;
+    right: 0%;
+    top: 47%; }
+  .block#about .circle_sk_bot {
+    position: absolute;
+    z-index: 9000;
+    left: 5%;
+    bottom: 0%; }
+
+.block#about {
+  background: linear-gradient(350.29deg, #C81F56 -17.44%, rgba(200, 31, 86, 0) 63.54%), #FE840E;
+  border-top-left-radius: 600px 50px;
+  border-top-right-radius: 1200px 300px;
+  border-bottom-right-radius: 300px 50px;
+  border-bottom-left-radius: 1200px 500px;
+  padding-left: 257px;
+  padding-right: 257px;
+  position: relative; }
+  .block#about h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    position: relative;
+    z-index: 10000;
+    color: white; }
+    .block#about h1.top {
+      padding-top: 106px;
+      max-width: 850px; }
+    .block#about h1.medium {
+      padding-top: 115px;
+      max-width: 610px; }
+    .block#about h1.bottom {
+      padding-top: 15px; }
+  .block#about img.data {
+    height: 729px;
+    width: auto;
+    position: absolute;
+    z-index: 9100;
+    left: 0%;
+    top: 10%; }
+  .block#about p.back.top {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 140px;
+    letter-spacing: -0.02em;
+    font-size: 200px;
+    line-height: 293px;
+    color: #FEB447;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 9050;
+    left: 0%;
+    top: 38%;
+    text-transform: uppercase; }
+  .block#about p.back.bot {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 140px;
+    letter-spacing: -0.02em;
+    font-size: 200px;
+    line-height: 293px;
+    text-transform: uppercase;
+    color: #F06C46;
+    position: absolute;
+    z-index: 9050;
+    right: 0%;
+    bottom: 12%; }
+  .block#about .advantages {
+    padding-bottom: 153px;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    z-index: 10000; }
+    .block#about .advantages img {
+      width: 40px;
+      height: auto;
+      margin-right: 20px; }
+    .block#about .advantages span {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.15px;
+      color: #FFFFFF;
+      max-width: 250px;
+      margin-right: 50px; }
+    .block#about .advantages .case {
+      margin-top: 52px;
+      margin-bottom: 52px; }
+    .block#about .advantages .phone, .block#about .advantages .case, .block#about .advantages .calendar {
+      display: inline-flex; }
+  .block#about img.screens {
+    height: 425px;
+    width: auto;
+    margin-left: -257px;
+    position: relative;
+    z-index: 10000; }
+  .block#about .description {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10000; }
+    .block#about .description p.br {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 35px;
+      letter-spacing: -0.01em;
+      color: #FFFFFF; }
+    .block#about .description p {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.15px;
+      color: #000000;
+      color: #FFFFFF; }
+    .block#about .description .adaptation, .block#about .description .practice, .block#about .description .intensive {
+      max-width: 285px; }
+    .block#about .description .practice {
+      margin-left: 66px;
+      margin-right: 66px; }
+  .block#about .sertification {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 150px;
+    position: relative;
+    z-index: 10000; }
+    .block#about .sertification img {
+      height: 308px;
+      width: auto;
+      margin-right: 53px; }
+    .block#about .sertification p.bottom {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.15px;
+      color: #000000;
+      color: #FFFFFF; }
+    .block#about .sertification button {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.75px;
+      text-transform: uppercase;
+      color: #000000;
+      background-color: #feb447;
+      height: 43px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 20px;
+      border: none;
+      position: relative;
+      z-index: 10000;
+      margin-bottom: 162px;
+      margin-top: 44px;
+      position: relative;
+      z-index: 10000; }
+      .block#about .sertification button:hover, .block#about .sertification button:active {
+        background: #C81F56; }
+  .block#about .circle_sk_top {
+    position: absolute;
+    z-index: 9000;
+    left: 0%;
+    top: 10%; }
+  .block#about .circle_sk_med {
+    position: absolute;
+    z-index: 9000;
+    right: 0%;
+    top: 47%; }
+  .block#about .circle_sk_bot {
+    position: absolute;
+    z-index: 9000;
+    left: 5%;
+    bottom: 0%; }
+
+.block#cource .compare {
+  padding-left: 257px;
+  padding-right: 257px;
+  min-width: 750px; }
+  .block#cource .compare .head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: -0.01em;
+    margin-top: 126px;
+    margin-bottom: 57px; }
+    .block#cource .compare .head .grey {
+      color: #8D8D8D; }
+    .block#cource .compare .head .bordo {
+      color: #C81F56; }
+    .block#cource .compare .head .orange {
+      color: #FE840E; }
+  .block#cource .compare .column {
+    display: flex;
+    flex-direction: column; }
+    .block#cource .compare .column .one, .block#cource .compare .column .two, .block#cource .compare .column .three, .block#cource .compare .column .four, .block#cource .compare .column .five {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 95px; }
+    .block#cource .compare .column .gray {
+      max-width: 345px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: -0.01em;
+      color: #000000; }
+      .block#cource .compare .column .gray span.img {
+        font-size: 44px;
+        filter: grayscale(100%);
+        margin-top: 15px;
+        margin-right: 15px; }
+    .block#cource .compare .column .color {
+      max-width: 531px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.15px;
+      color: #000000;
+      font-weight: 600;
+      margin-left: 49px; }
+      .block#cource .compare .column .color span.img {
+        font-size: 60px;
+        margin-top: 20px;
+        margin-right: 18px; }
+    .block#cource .compare .column .gray, .block#cource .compare .column .color {
+      display: inline-flex; }
+    .block#cource .compare .column .one .color {
+      margin-right: 22%; }
+  .block#cource .compare .price {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; }
+    .block#cource .compare .price .grey {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #C4C4C4; }
+      .block#cource .compare .price .grey p.number {
+        font-weight: normal;
+        font-size: 59.1611px;
+        line-height: 72px;
+        letter-spacing: -0.05em;
+        text-transform: uppercase; }
+      .block#cource .compare .price .grey span {
+        font-weight: 500;
+        font-size: 36.9757px;
+        line-height: 45px;
+        letter-spacing: -0.05em; }
+    .block#cource .compare .price .orange {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 50px;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      color: #FE840E; }
+      .block#cource .compare .price .orange p.number {
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 140px;
+        letter-spacing: -0.02em; }
+      .block#cource .compare .price .orange span {
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 88px; }
+
+.block#cource .form {
+  margin-top: 116px;
+  position: relative;
+  z-index: 10000;
+  background: #FE840E;
+  border-radius: 50px;
+  position: relative; }
+  .block#cource .form h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 72px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 10000;
+    padding: 51px 89px 61px 78px;
+    background: linear-gradient(180deg, #FEB447 0%, rgba(254, 132, 14, 0) 100%);
+    border-radius: 50px; }
+  .block#cource .form h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 50px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    padding-bottom: 38px;
+    padding-left: 78px;
+    position: relative;
+    z-index: 10000; }
+  .block#cource .form input {
+    margin-right: 20px;
+    margin-bottom: 51px;
+    background: #FFFFFF;
+    border: 1px solid #FFDBBA;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 10px rgba(254, 132, 14, 0.2);
+    border-radius: 20px;
+    padding: 13px 0px 13px 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.75px;
+    color: #000000;
+    position: relative;
+    z-index: 10000; }
+    .block#cource .form input:hover, .block#cource .form input:active, .block#cource .form input:focus {
+      outline: none; }
+    .block#cource .form input.left {
+      margin-left: 78px;
+      width: 494px; }
+    .block#cource .form input.right {
+      width: 290px; }
+    .block#cource .form input::placeholder {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.75px;
+      text-transform: uppercase;
+      color: rgba(254, 132, 14, 0.5); }
+  .block#cource .form button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #feb447;
+    height: 43px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    z-index: 10000;
+    position: relative;
+    z-index: 10000; }
+    .block#cource .form button:hover, .block#cource .form button:active {
+      background: #C81F56; }
+  .block#cource .form .circle_left {
+    position: absolute;
+    z-index: 9150;
+    left: 0%;
+    top: 0%;
+    border-radius: 50px 0px 0px 50px;
+    overflow: hidden; }
+  .block#cource .form .circle_right {
+    position: absolute;
+    z-index: 9100;
+    right: 0%;
+    top: 0%;
+    border-radius: 0px 50px 50px 0px;
+    overflow: hidden; }
+
+.block#cource .percent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 116px; }
+  .block#cource .percent .unite {
+    display: flex; }
+    .block#cource .percent .unite .text p {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+      color: #000000; }
+      .block#cource .percent .unite .text p.proc {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 120px;
+        line-height: 176px;
+        letter-spacing: -0.05em; }
+  .block#cource .percent .left p.proc {
+    background: linear-gradient(#F5FA72, #FE840E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .block#cource .percent .right p.proc {
+    background: linear-gradient(#FE840E, #C81F56);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .block#cource .percent button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #feb447;
+    height: 43px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    z-index: 10000;
+    margin-top: 57px;
+    margin-bottom: 143px;
+    padding-left: 30px;
+    padding-right: 30px; }
+    .block#cource .percent button:hover, .block#cource .percent button:active {
+      background: #C81F56; }
+
+.block#cource .structure {
+  padding-left: 257px;
+  padding-right: 257px;
+  position: relative;
+  z-index: 10000; }
+  .block#cource .structure h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    position: relative;
+    z-index: 10000; }
+  .block#cource .structure p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #000000;
+    position: relative;
+    z-index: 10000;
+    max-width: 525px;
+    padding-top: 15px;
+    padding-bottom: 73px; }
+  .block#cource .structure .carts {
+    position: relative;
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 148px; }
+    .block#cource .structure .carts div {
+      display: flex; }
+  .block#cource .structure .circle_top_left {
+    position: absolute;
+    z-index: 9100;
+    left: 0%;
+    top: 8.5%; }
+  .block#cource .structure .border_left {
+    position: absolute;
+    z-index: 9100;
+    left: 0%;
+    top: 35%; }
+  .block#cource .structure .circle_top_right {
+    position: absolute;
+    z-index: 9100;
+    right: 0%;
+    top: 31%; }
+  .block#cource .structure .border_right {
+    position: absolute;
+    z-index: 9100;
+    right: 0%;
+    top: 9%; }
+  .block#cource .structure .border_bot {
+    position: absolute;
+    z-index: 9100;
+    left: 7%;
+    bottom: -4%; }
+
+.block#company .content {
+  background: #FE840E;
+  padding-left: 257px;
+  padding-right: 257px;
+  position: relative;
+  z-index: 10000; }
+  .block#company .content h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 88px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    padding-bottom: 59px;
+    padding-top: 68px;
+    position: relative;
+    z-index: 10000; }
+  .block#company .content h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    max-width: 676px;
+    position: relative;
+    z-index: 10000; }
+    .block#company .content h2.bot {
+      line-height: 50px;
+      padding-bottom: 275px; }
+  .block#company .content p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-bottom: 90px;
+    margin-top: 16px;
+    max-width: 698px;
+    position: relative;
+    z-index: 10000; }
+  .block#company .content .circle_left_top {
+    position: absolute;
+    z-index: 9100;
+    top: 0%;
+    left: 0%; }
+  .block#company .content .circle_right_bot {
+    position: absolute;
+    z-index: 9100;
+    bottom: 0%;
+    right: 0%; }
+  .block#company .content .circle_right_top {
+    position: absolute;
+    z-index: 9200;
+    top: 0%;
+    right: 0%; }
+
+.block#company .teachers {
+  padding-left: 257px;
+  padding-right: 257px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -230px;
+  z-index: 12000;
+  position: relative; }
+  .block#company .teachers h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 66px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-top: -120px;
+    margin-left: 40px; }
+  .block#company .teachers h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-bottom: 61px; }
+  .block#company .teachers p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.15px;
+    color: #000000;
+    max-width: 360px;
+    margin-left: 40px; }
+  .block#company .teachers span {
+    font-size: 15px; }
+  .block#company .teachers .bulat, .block#company .teachers .alex {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 453px;
+    height: 490px; }
+  .block#company .teachers .img {
+    min-width: 453px;
+    height: 287px;
+    width: 453px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .block#company .teachers .bulat .img {
+    background-image: url("./resrc/bulat.png");
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-position: 100% 20%; }
+  .block#company .teachers .alex .img {
+    background-image: url("./resrc/alex.png");
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-position: 40% 0%;
+    background-size: 160%; }
+
+.block#company .forms {
+  margin-top: 116px;
+  margin-bottom: 116px;
+  margin-left: 138px;
+  margin-right: 138px;
+  position: relative;
+  z-index: 10000;
+  background: #FE840E;
+  border-radius: 50px;
+  min-width: 1150px; }
+  .block#company .forms h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 50px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    padding-bottom: 38px;
+    padding-left: 78px;
+    padding-top: 42px;
+    position: relative;
+    z-index: 10000; }
+  .block#company .forms input {
+    margin-right: 20px;
+    margin-bottom: 51px;
+    background: #FFFFFF;
+    border: 1px solid #FFDBBA;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 10px rgba(254, 132, 14, 0.2);
+    border-radius: 20px;
+    padding: 13px 0px 13px 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.75px;
+    color: #000000;
+    position: relative;
+    z-index: 10000; }
+    .block#company .forms input:hover, .block#company .forms input:active, .block#company .forms input:focus {
+      outline: none; }
+    .block#company .forms input.left {
+      margin-left: 78px;
+      width: 335px; }
+    .block#company .forms input.right {
+      width: 260px; }
+    .block#company .forms input::placeholder {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.75px;
+      text-transform: uppercase;
+      color: rgba(254, 132, 14, 0.5); }
+  .block#company .forms button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #feb447;
+    height: 43px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    z-index: 10000;
+    position: relative;
+    z-index: 10000;
+    background-color: #FE840E; }
+    .block#company .forms button:hover, .block#company .forms button:active {
+      background: #C81F56; }
+  .block#company .forms .circle_left {
+    position: absolute;
+    z-index: 9150;
+    left: 0%;
+    top: 0%;
+    border-radius: 50px 0px 0px 50px;
+    overflow: hidden; }
+  .block#company .forms .circle_right {
+    position: absolute;
+    z-index: 9100;
+    right: 0%;
+    top: 0%;
+    border-radius: 0px 50px 50px 0px;
+    overflow: hidden; }
+  .block#company .forms .logo {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    width: 43px;
+    height: 43px;
+    border-radius: 100%;
+    background: rgba(254, 132, 14, 0.5);
+    position: relative;
+    z-index: 10000; }
+    .block#company .forms .logo:hover, .block#company .forms .logo:active {
+      background: #C81F56; }
+    .block#company .forms .logo img {
+      margin-left: auto;
+      margin-right: auto; }
+
+.block#company .reviews h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 50px;
+  letter-spacing: -0.01em;
+  color: #000000;
+  margin-bottom: 68px;
+  text-align: center; }
+
+.block#footer {
+  padding-left: 257px;
+  padding-right: 257px;
+  margin-bottom: 214px; }
+  .block#footer .map {
+    display: flex;
+    margin-top: 197px;
+    position: relative;
+    z-index: 10000; }
+    .block#footer .map img {
+      position: relative;
+      z-index: 10000; }
+    .block#footer .map .text {
+      margin-left: 40px;
+      position: relative;
+      z-index: 10000; }
+      .block#footer .map .text h1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 50px;
+        letter-spacing: -0.01em;
+        color: #000000;
+        color: #FFFFFF;
+        margin-bottom: 52px; }
+      .block#footer .map .text span {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+        margin-bottom: 31px;
+        margin-left: 13px; }
+      .block#footer .map .text .phone, .block#footer .map .text .sms, .block#footer .map .text .point {
+        display: flex; }
+        .block#footer .map .text .phone img, .block#footer .map .text .sms img, .block#footer .map .text .point img {
+          margin-top: -53px; }
+    .block#footer .map .circle_footer_yel {
+      position: absolute;
+      z-index: 9100;
+      right: 30%;
+      top: 30%; }
+    .block#footer .map .circle_footer_ora {
+      position: absolute;
+      z-index: 9200;
+      right: -15%;
+      top: -16%; }
+    .block#footer .map .plain {
+      position: absolute;
+      z-index: 9300;
+      right: -18%;
+      top: -5%; }
+    .block#footer .map .adress {
+      position: absolute;
+      z-index: 11000;
+      left: 15%;
+      top: 20%;
+      background-color: #C4C4C4;
+      padding: 10px; }
+      .block#footer .map .adress a {
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: #000000; }
+  .block#footer .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 270px; }
+    .block#footer .logo p {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 29.6491px;
+      line-height: 44px;
+      letter-spacing: 0.15px;
+      color: #FE840E;
+      padding-left: 22px; }
+  .block#footer p.between {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-top: 21px;
+    margin-bottom: 19px; }
+  .block#footer .messengers {
+    display: flex;
+    justify-content: space-between; }
+    .block#footer .messengers .left .images {
+      display: flex; }
+      .block#footer .messengers .left .images a {
+        margin-right: 20px; }
+        .block#footer .messengers .left .images a:hover, .block#footer .messengers .left .images a:active {
+          opacity: 0.7; }
+    .block#footer .messengers .left p {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 25px;
+      align-items: center;
+      letter-spacing: -0.01em;
+      color: rgba(0, 0, 0, 0.3);
+      margin-top: 56px; }
+    .block#footer .messengers .right {
+      max-width: 345px; }
+      .block#footer .messengers .right button {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.75px;
+        text-transform: uppercase;
+        color: #000000;
+        background-color: #feb447;
+        height: 43px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 20px;
+        border: none;
+        position: relative;
+        z-index: 10000;
+        background-color: #FE840E;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 37px; }
+        .block#footer .messengers .right button:hover, .block#footer .messengers .right button:active {
+          background: #C81F56; }
+      .block#footer .messengers .right a {
+        margin-bottom: 20px;
+        margin-right: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: none; }
+        .block#footer .messengers .right a:hover, .block#footer .messengers .right a:focus {
+          color: black; }
+      .block#footer .messengers .right .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+
+</style></head><body> <div class="block" id="header"> <div class="nav"><div class="logo"><img src="./resrc/logo.svg"><p>data.rar</p></div><div class="menu"> <div><a href="#structure">Программа курса</a></div><div><a href="#cource">Преимущества</a></div><div><a href="#price">Цена</a></div><div><a href="#reviews">Отзывы</a></div><div><a href="#contact">Контакты</a></div></div></div><div class="content"> <h1>Как за 12 часов стать начинающим data scientist и научиться зарабатывать на своих навыках? </h1><h2>И получить высокооплачиваемую работу в самой быстрорастущей отрасли в мире</h2><div class="advantages"> <div class="phone"> <img src="./resrc/phone.svg"><span>Начните зарабатывать на следующий день после курса</span></div><div class="search"> <img src="./resrc/search.svg"><span>Поможем найти работу в офисе и на фрилансе</span></div><div class="clock"> <img src="./resrc/clock.svg"><span>Сэкономьте своё время —  за день получите то же, что на трёхмесячном курсе обучения</span></div></div><h3>Начало курса: 11 мая, 9:00 – 21:00</h3><button>Забронировать</button><div class="circle_bot"> <img src="./resrc/circle_bot.svg"></div><div class="circle_top"><img src="./resrc/circle_top.svg"></div><div class="circle_yel"><img src="./resrc/circle_yel.svg"></div><div class="circle_ora"><img src="./resrc/circle_ora.png"></div></div></div><div class="block" id="skills"> <h1 class="top">Как Вы считаете, сможете ли Вы стать data scientist за 12 часов, освоив эти 6 навыков?</h1><div class="six-skills"> <div class="unite"><div class="one"> <img src="./resrc/one.svg"><br><span class="clear">01</span><span class="description">Обработка данных и извлечение признаков</span></div><div class="two"> <img src="./resrc/two.svg"><br><span class="clear">02</span><span class="description">Классификация</span></div><div class="three"> <img src="./resrc/three.svg"><br><span class="clear">03</span><span class="description">Кластеризация</span></div></div><div class="unite"><div class="four"> <img src="./resrc/four.svg"><br><span class="clear">04</span><span class="description">Построение регрессионных моделей</span></div><div class="five"> <img src="./resrc/five.svg"><br><span class="clear">05</span><span class="description">Ранжирование</span></div><div class="six"> <img src="./resrc/six.svg"><br><span class="clear">06</span><span class="description">Сокращение размерности</span></div></div></div><h2 class="clear">Вакансии data scientist</h2><div class="circle_vacancy_yel"><img src="./resrc/circle_vacancy_yel.svg"></div><div class="circle_vacancy_ora"><img src="./resrc/circle_vacancy_ora.svg"></div><div class="vacancy-slider"> <div class="vacancy-cart"><img class="hh" src="./resrc/hh.png"><p class="name">Data Scientist</p><p class="price">до 400 000 руб.</p><img class="head" src="./resrc/citymobil.svg"></div><div class="vacancy-cart"><img class="hh" src="./resrc/hh.png"><p class="name">Data scientist /Project manager</p><p class="price">до 400 000 руб.</p><img class="head" src="./resrc/brunel.svg"></div><div class="vacancy-cart"><img class="hh" src="./resrc/hh.png"><p class="name">Руководитель направления</p><p class="price">от 200 000 руб.</p><img class="head" src="./resrc/sberbank.svg"></div><div class="vacancy-cart"><img class="hh" src="./resrc/hh.png"><p class="name">Специалист Big data</p><p class="price">от 300 000 руб.</p><img class="head" src="./resrc/dream-island.svg"></div><div class="vacancy-cart"><img class="hh" src="./resrc/hh.png"><p class="name">Data Scientist</p><p class="price">до 300 000 руб.</p><img class="head" src="./resrc/regionmedia.svg"></div><div class="vacancy-cart"><img class="hh" src="./resrc/hh.png"><p class="name">Data scientist /Project manager</p><p class="price">до 400 000 руб.</p><img class="head" src="./resrc/brunel.svg"></div></div><button class="skills">Освоить эти 6 навыков</button><h1 class="bot">В этом году мы разработали систему интенсивного обучения, которая позволит вам освоить все 6 навыков за 12 часов.</h1><p class="descript">Плохая новость в том, что обычные и онлайн курсы по data science растянуты на много недель, а их стоимость начинается от 30 тысяч рублей &#128532;</p><div class="images"><figure class="textbook"> <p><img src="./resrc/textbook.png"></p><figcaption> Но там куча теории...</figcaption><div class="gray"><img src="./resrc/textbook.svg"></div></figure><figure class="computer"><p><img src="./resrc/computer.png"></p><figcaption>И нет гарантии, что вы получите знания</figcaption><div class="gray"><img src="./resrc/computer.svg"></div><div class="dragon"><img src="./resrc/dragon.svg"></div></figure></div></div><div class="block" id="about"> <div class="content"><h1 class="top">Поэтому мы решили сделать обучение удобным, доступным и выгодным для каждого и упаковали знания в интенсивный курс, который позволит Вам:</h1><img class="data" src="./resrc/data.png"><p class="back top">data</p><div class="advantages"> <div class="phone"> <img src="./resrc/phone2.svg"><span>Потратить минимум денег и времени</span></div><div class="case"> <img src="./resrc/case.svg"><span>Научиться искать работу под новые навыки</span></div><div class="calendar"> <img src="./resrc/calendar.svg"><span>Начать зарабатывать на следующий день после курса</span></div></div><h1 class="medium">На нашем курсе вы освоите все необходимые навыки за 12 часов благодаря</h1><img class="screens" src="./resrc/screens.png"><div class="description"> <div class="adaptation"> <p class="br">Адаптации для новичков</p><br><p>Все курсы адаптированы под новичков,<br> не имеющих опыта программирования</p></div><div class="practice"> <p class="br">Ориентации на практику</p><br><p>По окончании курса студенты станут самостоятельными разработчиками</p></div><div class="intensive"><p class="br">Интенсивному обучению</p><br><p>Самый необходимый материал в максимально сжатые сроки</p></div></div><p class="back bot">sciense</p><div class="sertification"> <img src="./resrc/sertification.png"><div class="text"><h1 class="bottom">И получите сертификат</h1><p class="bottom">Добавьте его к своему резюме и претендуйте на более престижную должность</p><button>Забронировать</button></div></div><div class="circle_sk_top"><img src="./resrc/circle_sk_top.svg"></div><div class="circle_sk_med"><img src="./resrc/circle_sk_med.svg"></div><div class="circle_sk_bot"><img src="./resrc/circle_sk_bot.svg"></div></div></div><div class="block" id="cource"> <div class="compare"> <div class="head"> <div class="grey">Обычный курс &#160;</div><div class="bordo">vs. &#160;</div><div class="orange">Наш курс</div></div><div class="column"> <div class="one"> <div class="gray"><span class="img">&#128551;</span><span>Собирать знания в течение года </span></div><div class="color"> <span class="img">&#128579;</span><span>Сфокусировать усилия</span></div></div><div class="two"> <div class="gray"><span class="img">&#128542;</span><span>Много теории и сухих теорем </span></div><div class="color"> <span class="img">&#128526;</span><span>Берём из теории только самое нужное и переходим к практике </span></div></div><div class="three"> <div class="gray"><span class="img">&#128561;</span><span>Время, которые вы потратите только на дорогу - 12 часов</span></div><div class="color"> <span class="img">&#129303;</span><span>Время, которое вы потратите на всё обучение — 12 часов </span></div></div><div class="four"> <div class="gray"><span class="img">&#129300;</span><span>Каждый день занятий Вы оплачиваете аренду помещения и оборудования, а также платите за время, которое преподаватели провели в дороге</span></div><div class="color"> <span class="img">&#129297;</span><span>Проведение курса в один день позволяет снизить издержки для нас и цену для Вас </span></div></div><div class="five"><div class="gray"><span class="img">&#128577;</span><span>Вы сможете начать зарабатывать не раньше окончания курса, минимум через месяц </span></div><div class="color"> <span class="img">&#128515;</span><span>Вы начнёте зарабатывать и окупать стоимость обучения уже на следующий день. Мы научим Вас искать работу и подработку </span></div></div></div><div class="price" id="price"> <div class="grey"><p>ОБЫЧНЫЙ КУРС</p><p class="number">46 000 <span>руб.</span></p></div><div class="orange"><p>КУРС Data.rar</p><p class="number">14 990 <span>руб.</span></p></div></div></div><div class="form"> <h1>Начало курса: 11 мая, 9:00 – 21:00</h1><h2>Подайте заявку сейчас!</h2><input class="left" type="text" placeholder="имя"><input class="right" type="tel" name="телефон" placeholder="телефон"><button>Забронировать</button><div class="circle_left"> <img src="./resrc/circle_left.svg" height="368px" width="auto"></div><div class="circle_right"> <img src="./resrc/circle_right.svg" height="368px" width="auto"></div></div><div class="percent"><div class="left"> <div class="unite"><img src="./resrc/man_left.svg"><div class="text"><p class="proc">-10%</p><p>Приведи друга — оба получите 10% скидку!</p></div></div><button>Пригласить друга</button></div><div class="right"> <div class="unite"><img src="./resrc/man_right.svg"><div class="text"><p class="proc">-5%</p><p>Сделай репост — получи 5% скидку! </p></div></div><button>Сделать репост</button></div></div><div class="structure" id="structure"><h1>Структура курса</h1><p>Программа курса кажется сложной, но мы разделили ее на 7 простых блоков</p><div class="carts"> <div><img src="./resrc/cart1.svg"><img src="./resrc/cart2.svg"></div><div><img src="./resrc/cart3.svg"><img src="./resrc/cart4.svg"></div><div><img src="./resrc/cart5.svg"><img src="./resrc/cart6.svg"></div><div><img src="./resrc/cart7.svg"><img src="./resrc/cart8.svg"></div></div><div class="circle_top_left"> <img src="./resrc/circle_top_left.svg"></div><div class="circle_top_right"> <img src="./resrc/circle_top_right.svg"></div><div class="border_bot"> <img src="./resrc/border_bot.svg"></div><div class="border_right"> <img src="./resrc/border_right.svg"></div><div class="border_left"> <img src="./resrc/border_left.svg"></div></div></div><div class="block" id="company"> <div class="content"> <h1>О компании</h1><h2>Мы — команда, создающая новый формат курсов</h2><p>Мы упаковываем сложный материал в 12-ти часовые интенсивы. Специализируемся на новых профессиях эры цифровизации и искусственного интеллекта.</p><h2 class="bot">Наши преподаватели</h2><div class="circle_left_top"> <img src="./resrc/circle_left_top.svg"></div><div class="circle_right_bot"><img src="./resrc/circle_right_bot.svg"></div><div class="circle_right_top"> <img src="./resrc/circle_right_top.svg"></div></div><div class="teachers"><div class="bulat"> <div class="img"></div><h1>Булат</h1><h2>Шканов</h2><p><span>&#8226;</span> Более 4 лет опыта в машинном обучении</p><p><span>&#8226;</span> Работает в Московском кредитном банке</p></div><div class="alex"><div class="img"></div><h1>Александр</h1><h2>Глотов</h2><p><span>&#8226;</span> 6 лет работы с фрилансерами</p><p><span>&#8226;</span> Более 3-х лет работы в консалтинге и аналитике</p><p><span>&#8226;</span> Владелец компании ....ru</p></div></div><div class="forms"> <h2>Оставьте заявку и мы вам перезвоним</h2><input class="left" type="text" placeholder="имя"><input class="right" type="tel" name="телефон" placeholder="телефон"><button>Отправить</button><div class="logo"><img src="./resrc/facebook.svg"></div><div class="logo"><img src="./resrc/twitter.svg"></div><div class="logo"><img src="./resrc/vkontakte.svg"></div><div class="circle_left"> <img src="./resrc/circle_left_ora.svg" height="226px" width="auto"></div><div class="circle_right"> <img src="./resrc/circle_right_yel.svg" height="226px" width="auto"></div></div><div class="reviews" id="reviews"><h1>Отзывы</h1></div></div><div class="block" id="footer"> <div class="map"> <img src="./resrc/map.svg"><div class="text"> <h1>Контакты</h1><div class="contact" id="contact"><div class="phone"> <img src="./resrc/phone_footer.svg"><span>+7 (495) 123-45-67 <br> 8 (800) 123-45-67</span></div><div class="sms"> <img src="./resrc/sms_footer.svg"><span>info@address.com <br> support@address.com</span></div><div class="point"><img src="./resrc/point_footer.svg"><span>Москва, Сверчков пер., д. 10, офис 105 </span></div></div></div><div class="circle_footer_yel"><img src="./resrc/circle_footer_yel.svg"></div><div class="circle_footer_ora"><img src="./resrc/circle_footer_ora.svg"></div><div class="plain"> <img src="./resrc/plain.svg"></div><div class="adress"><a href="https://mapstyle.withgoogle.com/" target="_blank">https://mapstyle.withgoogle.com/</a></div></div><div class="logo"> <img src="./resrc/logo_footer.svg"><p>data.rar</p></div><p class="between">Остались вопросы? Мы всегда на связи:</p><div class="messengers"><div class="left"> <div class="images"><a href="#" target="_blank"><img src="./resrc/net_telegram.svg" height="43px" width="auto"></a><a href="#" target="_blank"><img src="./resrc/net_facebook.svg" height="43px" width="auto"></a><a href="#" target="_blank"><img src="./resrc/net_vk.svg" height="43px" width="auto"></a><a href="#" target="_blank"><img src="./resrc/net_whatsapp.svg" height="43px" width="auto"></a><a href="#" target="_blank"><img src="./resrc/net_viber.svg" height="43px" width="auto"></a><a href="#" target="_blank"><img src="./resrc/net_insta.svg" height="43px" width="auto"></a></div><p>Политика конфендиальности <br> © Data.rar 2019</p></div><div class="right"> <button>заказать звонок</button><div class="menu"> <a href="#structure">Программа курса</a><a href="#cource">Преимущества</a><a href="#price">Цена</a><a href="#company">О компании</a><a href="#reviews">Отзывы</a><a href="#contact">Контакты</a></div></div></div></div><script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script><script src="./resrc/slick.min.js"> </script><script src="./resrc/features.js"> </script></body></html>
