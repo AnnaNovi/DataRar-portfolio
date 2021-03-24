@@ -389,6 +389,7 @@ body {
       margin-left: 10px;
       margin-right: 10px;
       margin-bottom: 34px;
+      outline: none;
       position: relative;
       z-index: 10000; }
       .block#skills .vacancy-slider .vacancy-cart .hh {
@@ -448,7 +449,7 @@ body {
       font-size: 0; }
       .block#skills .vacancy-slider .slick-arrow.slick-prev {
         left: 80px;
-        background: url("./resrc/arrow-prev.png") 100% 100% no-repeat;
+        background: url("./resrc/arrow-prev.png") 0 0 no-repeat;
         background-size: contain;
         width: 28px;
         height: 55px;
@@ -1404,8 +1405,104 @@ body {
   line-height: 50px;
   letter-spacing: -0.01em;
   color: #000000;
-  margin-bottom: 68px;
   text-align: center; }
+
+.block#company .reviews .reviews-slider {
+  margin-top: 68px;
+  position: relative;
+  z-index: 10000; }
+  .block#company .reviews .reviews-slider .reviews-cart {
+    width: 453px;
+    height: 239px;
+    background: #FFFFFF;
+    border: 1px solid #FEB447;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 40px 20px 10px 20px;
+    outline: none;
+    position: relative;
+    z-index: 10000; }
+    .block#company .reviews .reviews-slider .reviews-cart .photo {
+      width: 70px;
+      height: 70px;
+      margin-top: -30px; }
+    .block#company .reviews .reviews-slider .reviews-cart .review {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: -0.01em;
+      color: #000000;
+      padding-left: 10px;
+      padding-right: 10px; }
+    .block#company .reviews .reviews-slider .reviews-cart .name {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      letter-spacing: -0.01em;
+      color: #000000;
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%); }
+  .block#company .reviews .reviews-slider .slick-track {
+    display: flex;
+    justify-content: center; }
+  .block#company .reviews .reviews-slider .slick-list {
+    overflow: hidden; }
+  .block#company .reviews .reviews-slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .block#company .reviews .reviews-slider .slick-dots li {
+      list-style: none; }
+      .block#company .reviews .reviews-slider .slick-dots li.slick-active button {
+        font-size: 0;
+        background: #FE840E;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        margin: 0px 12px; }
+    .block#company .reviews .reviews-slider .slick-dots button {
+      font-size: 0;
+      width: 8px;
+      height: 8px;
+      background-color: #D1D6E3;
+      border-radius: 50%;
+      border: none;
+      outline: none;
+      margin: 0px 12px; }
+  .block#company .reviews .reviews-slider .slick-arrow {
+    position: absolute;
+    top: 130px;
+    z-index: 9300;
+    font-size: 0; }
+    .block#company .reviews .reviews-slider .slick-arrow.slick-prev {
+      left: 55px;
+      background: url("./resrc/arrow-prev-gray.png") 100% 100% no-repeat;
+      background-size: contain;
+      width: 28px;
+      height: 55px;
+      border: none; }
+    .block#company .reviews .reviews-slider .slick-arrow.slick-next {
+      right: 55px;
+      background: url("./resrc/arrow-next-gray.png") 100% 100% no-repeat;
+      background-size: contain;
+      width: 28px;
+      height: 55px;
+      border: none; }
+  .block#company .reviews .reviews-slider .slick-slide {
+    opacity: 0.5; }
+    .block#company .reviews .reviews-slider .slick-slide.slick-active {
+      opacity: 1; }
 
 .block#footer {
   padding-left: 257px;
